@@ -26,7 +26,6 @@ class JoueurController extends AbstractController
     $ville = $villesRepository->find($data->idville);
 
     $joueur = new Joueur();
-    $joueur = $joueur;
     $joueur->setEmail($data->email);
     $joueur->setNom($data->nom);
     $joueur->setPrenom($data->prenom);
